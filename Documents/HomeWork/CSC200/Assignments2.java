@@ -11,9 +11,8 @@ public class Assignments2b
 	{// start main
 		int n1, n2, n3, n4, n5, sum, avg;
 		int max = 0;
-		int median = 0;
 		int min = 0;
-		int mode = 0;
+		
 		System.out.println("Please enter 5 numbers and I will compute the Sum and Average for you. If you are lucky, I will also tell you the Min, Ma, Mode, and Median");
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("Please enter the first number :");
@@ -120,7 +119,7 @@ public class Assignments2b
 		System.out.println("The average is :" + avg);
 		System.out.println("The max is :" + max);
 		System.out.println("The min is :" + min);
-		System.out.println("The median is :" + median);
+		
 		
 	}// end main
 }// end class
